@@ -126,7 +126,7 @@ export default function DashboardPage() {
   );
   const metricsSseUrl =
     process.env.NEXT_PUBLIC_METRICS_SSE_URL ??
-    "http://localhost:3001/api/system-metrics";
+    "/api/system-metrics";
 
   useEffect(() => {
     // Connect to SSE Endpoint
